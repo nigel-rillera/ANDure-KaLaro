@@ -1,87 +1,72 @@
-# Project KaLaro
-*A 2D Indie Simulation and Community Hub for Sustainable Development*
+# **KaLaro**: A Strategic Blueprint for Urban Sustainability
 
-This document serves as a strategic blueprint for impact investors, hackathon judges, and stakeholders focused on **UN Sustainable Development Goal 11 (Sustainable Cities and Communities)**. 
-
-With 70% of the global population projected to live in urban areas by 2050, **KaLaro** provides a gamified framework to train the next generation in circular economy principles. Our ultimate vision is a community-driven server world where people gather, socialize, and play mini-games to learn about all the SDGs. Due to current development time constraints, this build focuses exclusively on the SDG 11 mini-game, with other SDGs planned for future updates.
+## 1. Document Overview
+This documentation serves as a formal proposal and technical guide for **KaLaro**. It is designed for stakeholders, impact investors, and adjudicators focusing on the intersection of gaming, community building, and the United Nations Sustainable Development Goals (SDGs).
 
 ---
 
-## 🌟 Elevator Pitch
+## 2. Executive Summary
 
-> **KaLaro** is a 2D indie simulation and community hub that transforms complex urban sustainability into a "Chain of Care." Players enter a shared server world as a customizable avatar, gathering to tackle the SDG 11 waste management mini-game. It’s not just a game; it’s a blueprint for zero-waste living, powered by the spirit of Filipinos called *Bayanihan*. While our current build utilizes standard controls, our future roadmap includes cutting-edge Computer Vision (Eye-Tracking) and Voice Commands to remove physical barriers to gaming, ensuring sustainability education will eventually be inclusive and accessible to all.
+### 2.1 Elevator Pitch
+**KaLaro** is a 2D indie simulation and community hub that transforms complex urban sustainability into a collaborative digital experience. Players enter a shared server world as customizable avatars, gathering to tackle various SDGs through gamified challenges. **KaLaro** is more than a game; it is a blueprint for zero-waste living, powered by the traditional Filipino spirit of *Bayanihan*.
 
----
-
-## 🎮 Game Overview
-
-| Feature | Description |
-| :--- | :--- |
-| **Genre** | Multiplayer Indie Hub / Educational Mini-Game |
-| **Setting** | A vibrant Filipino summer. Features a main *Barangay* (Neighborhood) hub, Beach, and Circular Hub (Farm and Factory). |
-| **Visuals** | Vibrant, summer-themed, pixelated indie art style. |
-| **Audio** | Chill, entertaining, and joyful. Blends joyful lo-fi with traditional Filipino peacefulness. |
-| **Player Avatar** | Single, customizable avatar representing the player's true identity within the community. |
-| **Core Loop** | Collect -> Categorize -> Convert. |
-
-### Target Audience
-*   **The "Conscious Gamer":** Enjoys indie simulations, social server environments, and seeks purpose-driven content.
-*   **Institutional Partners:** Schools and NGOs utilizing the game's Impact Analytics for research and education.
-*   **Future Accessibility Seekers:** Users with disabilities who will benefit from planned native eye-tracking and voice support.
+### 2.2 Global Context
+With 70% of the global population projected to live in urban areas by 2050, **KaLaro** provides a gamified framework to train the next generation in circular economy principles. While the current build highlights specific modules, the long-term vision is a comprehensive hub for all 17 SDGs.
 
 ---
 
-## 🕹️ Gameplay & Flow
+## 3. Thematic Implementation (SDG Modules)
 
-### Objectives
-*   **Main Objective:** Complete the SDG 11 mini-game (Collect -> Segregate -> Deliver) to produce a sustainable output.
-*   **Secondary Objective:** Maintain the "Community Health Meter" and generate accurate reports/dashboards for administrative review.
-
-### Play Flow
-1.  **Hub Navigation:** Players gather in the main server hub to freely explore and socialize.
-2.  **Mini-Game Entry:** Players queue or step into specific zones to initiate the standalone SDG 11 cleanup and segregation mini-game.
-3.  **Action:** Players collect and sort waste as quickly and accurately as possible using drag-and-drop mechanics.
-4.  **Resolution:** Players review their Impact Dashboard and return to the hub to see the updated "Community Health Meter."
-
-### Difficulty Modes
-*   **Chill Mode:** No time pressure, purely educational and relaxed.
-*   **Eco-Warrior Mode:** High trash-spawning rates and stricter sorting accuracy for a competitive arcade feel.
+| Module | Sustainable Development Goal | Gameplay Mechanic |
+| :--- | :--- | :--- |
+| **Waste Management** | **SDG 11**: Sustainable Cities | Collect, categorize, and convert waste to restore community health. |
+| **Sustainable Canteen** | **SDG 12**: Responsible Consumption | Manage a school canteen by balancing local suppliers and controlled consumption. |
+| **Ecological Bridge** | **SDG 15**: Life on Land | A "Floor is Lava" obstacle course where players must plant trees to survive a deforested landscape while avoiding obstacles. |
 
 ---
 
-## ⚙️ Mechanics & Physics
+## 4. Visual Documentation (Screenshot Placement)
 
-### Rules & Systems
-*   **Carrying Capacity:** Avatars have limits on how much waste they can carry before needing to deposit or rest.
-*   **Sorting Rule:** Misplaced items cause "System Clogs," which reduce the quality of the final output.
-*   **Bayanihan Bonus:** Assisting NPCs or other players with sustainable tasks grants "Community Credits."
-*   **Tide Spawning:** Trash in the mini-game spawns based on tide cycles, mimicking real-world environmental patterns.
-*   **Dynamic Hub:** The main server hub's appearance changes based on the collective "Community Health Meter." Successful mini-games result in a clean, vibrant hub.
-*   **Impact Analytics:** The backend records data points on user decision-making to aid real-world environmental studies.
+To ensure high-impact visual communication, screenshots should be embedded at the following strategic points within your repository or pitch deck:
 
-### Physics
-*   **Weight & Friction:** Items have varied "environmental weight." Recyclables (like plastic bottles) are light and blow in the wind; residual waste bags are heavy and slow movement speed.
-*   **Collision:** Generous collision boxes ensure "near-miss" interactions still register as successful pickups, maintaining a chill game feel.
+*   **Header/Hero Section:** Place a high-resolution screenshot of the **Main Barangay Hub** immediately following the title to showcase the art style and "vibe."
+*   **Gameplay Section:** Insert a "before and after" comparison of the **SDG 11 Beach Cleanup** to demonstrate the "Community Health Meter" impact.
+*   **UI/UX Section:** Provide a screenshot of the **Sustainability Dashboard** or **Impact Analytics** to show how data is presented to the player.
+*   **Accessibility Roadmap:** Include a mock-up or screen capture of the **Eye-Tracking/Gaze Control** interface to visualize the future tech integration.
+
+> **Markdown Template for Screenshots:**
+> `![Description of Gameplay](link_to_your_image.png)`
 
 ---
 
-## 💰 Economy: Circular Prosperity System
+## 5. Core Game Mechanics
 
-KaLaro utilizes an economy that measures community wealth rather than individual profit.
+### 5.1 World Structure
+**KaLaro** operates as a server-world hub. Players explore a central community zone to socialize and interact, subsequently queuing for specific zones that trigger standalone SDG mini-games.
 
-*   **Primary Currency:** **Bayani Points** (Hero Points), earned by completing the mini-game successfully.
-*   **Economy Balance - Gains:** Points are awarded for every item correctly routed to the Biodegradable, Recyclable, or Residual bins (Farm or Factory).
-*   **Economy Balance - Losses:** Mismanaged waste creates "System Clogs," requiring players to spend points on "Community Cleanup" events to restore the hub.
+### 5.2 Circular Prosperity System (Economy)
+The game utilizes an economy based on collective wealth rather than individual profit:
+*   **Bayani Points:** Earned through successful mission completion.
+*   **System Clogs:** Occur when resources are mismanaged, requiring community-wide cleanup events to restore the hub's aesthetics and functionality.
+
+### 5.3 Physics and Interaction
+*   **Environmental Weight:** Items have varied physics; recyclables are light and reactive to wind, while residual waste affects avatar movement speed.
+*   **Bayanihan Bonus:** Collaborative actions (assisting NPCs or other players) grant specialized "Community Credits."
 
 ---
 
-## 🗺️ UI, Controls & Accessibility Roadmap
+## 6. Future Accessibility Roadmap
 
-### Current Build Features
-*   **Controls:** Standard Keyboard and Mouse inputs (WASD/Arrow keys for movement, clicking/drag-and-drop for sorting).
-*   **Game Options:** Language support, audio toggles, and resolution settings.
-*   **The Impact Report:** A post-game Sustainability Dashboard screen showing exactly how many kilograms of waste were diverted from landfills and the amount of "Community Health" restored.
+A primary mission of **KaLaro** is to ensure sustainability education is inclusive. While the current build utilizes standard keyboard/mouse controls, the development roadmap includes:
 
-### Future Accessibility Roadmap
-*   **Alternative Movement:** Eye-Tracking (Gaze Control) and Voice Navigation to fulfill the "Open-to-All" promise.
-*   **Expanded Options:** Input calibration for eye-tracking, voice command thresholds, color-blind filters, and high-contrast modes.
+1.  **Computer Vision (Eye-Tracking):** Gaze-based navigation to assist users with limited motor function.
+2.  **Voice Commands:** Audio-based triggers for resource sorting and avatar movement.
+3.  **Inclusive Design:** High-contrast modes and color-blind filters to ensure the "Open-to-All" promise is fulfilled.
+
+---
+
+## 7. Technical Specifications
+*   **Genre:** Multiplayer Indie Hub / Educational Mini-Game.
+*   **Art Style:** Vibrant, summer-themed pixel art.
+*   **Platform:** PC (Web-based or Server-hosted).
+*   **Backend:** Impact Analytics tracking for real-world environmental study.
