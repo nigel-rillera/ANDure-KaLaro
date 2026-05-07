@@ -1,72 +1,49 @@
-# **KaLaro**: A Strategic Blueprint for Urban Sustainability
+# KaLaro: Gamifying the Sustainable Development Goals
 
-## 1. Document Overview
-This documentation serves as a formal proposal and technical guide for **KaLaro**. It is designed for stakeholders, impact investors, and adjudicators focusing on the intersection of gaming, community building, and the United Nations Sustainable Development Goals (SDGs).
-
----
-
-## 2. Executive Summary
-
-### 2.1 Elevator Pitch
-**KaLaro** is a 2D indie simulation and community hub that transforms complex urban sustainability into a collaborative digital experience. Players enter a shared server world as customizable avatars, gathering to tackle various SDGs through gamified challenges. **KaLaro** is more than a game; it is a blueprint for zero-waste living, powered by the traditional Filipino spirit of *Bayanihan*.
-
-### 2.2 Global Context
-With 70% of the global population projected to live in urban areas by 2050, **KaLaro** provides a gamified framework to train the next generation in circular economy principles. While the current build highlights specific modules, the long-term vision is a comprehensive hub for all 17 SDGs.
+## 1. Executive Summary
+**KaLaro** is a 2D indie simulation and community hub that gamifies urban sustainability. In a shared server world, players use customizable avatars to tackle environmental challenges, transforming complex SDG principles into actionable digital habits. Rooted in the Filipino spirit of ***Bayanihan***, **KaLaro** serves as a blueprint for zero-waste living and inclusive education.
 
 ---
 
-## 3. Thematic Implementation (SDG Modules)
+## 2. Core SDG Modules
 
-| Module | Sustainable Development Goal | Gameplay Mechanic |
+| Module | Goal | Mechanic |
 | :--- | :--- | :--- |
-| **Waste Management** | **SDG 11**: Sustainable Cities | Collect, categorize, and convert waste to restore community health. |
-| **Sustainable Canteen** | **SDG 12**: Responsible Consumption | Manage a school canteen by balancing local suppliers and controlled consumption. |
-| **Ecological Bridge** | **SDG 15**: Life on Land | A "Floor is Lava" obstacle course where players must plant trees to survive a deforested landscape while avoiding obstacles. |
+| **Waste Management** | **SDG 11** | **Collect $\rightarrow$ Segregate $\rightarrow$ Deliver.** Manage resources to restore community health. |
+| **Sustainable Canteen** | **SDG 12** | **Procure $\rightarrow$ Consume.** Balance local suppliers with controlled consumption. |
+| **Eco-Bridge** | **SDG 15** | **Plant $\rightarrow$ Survive.** A "Floor is Lava" course where planting trees creates paths to safety. |
 
 ---
 
-## 4. Visual Documentation (Screenshot Placement)
+## 3. Key Gameplay Features
 
-To ensure high-impact visual communication, screenshots should be embedded at the following strategic points within your repository or pitch deck:
-
-*   **Header/Hero Section:** Place a high-resolution screenshot of the **Main Barangay Hub** immediately following the title to showcase the art style and "vibe."
-*   **Gameplay Section:** Insert a "before and after" comparison of the **SDG 11 Beach Cleanup** to demonstrate the "Community Health Meter" impact.
-*   **UI/UX Section:** Provide a screenshot of the **Sustainability Dashboard** or **Impact Analytics** to show how data is presented to the player.
-*   **Accessibility Roadmap:** Include a mock-up or screen capture of the **Eye-Tracking/Gaze Control** interface to visualize the future tech integration.
-
-> **Markdown Template for Screenshots:**
-> `![Description of Gameplay](link_to_your_image.png)`
+*   **Shared Server Hub:** A central community zone where players socialize before entering specific SDG zones.
+*   **The Circular Economy:** **KaLaro** uses a "Circular Prosperity System." Players earn **Bayani Points** for correct sorting and lose them to "System Clogs" caused by mismanagement.
+*   **Dynamic Environments:** The hub’s visual state changes based on the collective "Community Health Meter." If the community succeeds, the world flourishes.
+*   **Tactile Physics:** Items have varied "environmental weights." Light recyclables may blow away, while heavy waste bags slow down avatar movement.
 
 ---
 
-## 5. Core Game Mechanics
+## 4. Technical Innovation & Accessibility
 
-### 5.1 World Structure
-**KaLaro** operates as a server-world hub. Players explore a central community zone to socialize and interact, subsequently queuing for specific zones that trigger standalone SDG mini-games.
+**KaLaro** is built to be "Open-to-All." While the current build utilizes standard keyboard/mouse inputs, our strategic roadmap focuses on removing physical barriers:
 
-### 5.2 Circular Prosperity System (Economy)
-The game utilizes an economy based on collective wealth rather than individual profit:
-*   **Bayani Points:** Earned through successful mission completion.
-*   **System Clogs:** Occur when resources are mismanaged, requiring community-wide cleanup events to restore the hub's aesthetics and functionality.
-
-### 5.3 Physics and Interaction
-*   **Environmental Weight:** Items have varied physics; recyclables are light and reactive to wind, while residual waste affects avatar movement speed.
-*   **Bayanihan Bonus:** Collaborative actions (assisting NPCs or other players) grant specialized "Community Credits."
+*   **Computer Vision Integration:** Future implementation of **Eye-Tracking (Gaze Control)** for hands-free navigation.
+*   **Voice Command Support:** Enabling audio-based triggers for users with motor disabilities.
+*   **Inclusive UI:** High-contrast modes and color-blind filters are planned to ensure sustainability education is accessible to everyone.
 
 ---
 
-## 6. Future Accessibility Roadmap
+## 5. Visual Documentation Strategy
+*Where to place your screenshots for maximum impact:*
 
-A primary mission of **KaLaro** is to ensure sustainability education is inclusive. While the current build utilizes standard keyboard/mouse controls, the development roadmap includes:
-
-1.  **Computer Vision (Eye-Tracking):** Gaze-based navigation to assist users with limited motor function.
-2.  **Voice Commands:** Audio-based triggers for resource sorting and avatar movement.
-3.  **Inclusive Design:** High-contrast modes and color-blind filters to ensure the "Open-to-All" promise is fulfilled.
+1.  **Main Title Header:** Place a wide-angle screenshot of the **Main Barangay Hub** to establish the pixel-art aesthetic.
+2.  **Gameplay Mechanics Section:** Insert a shot of the **SDG 11 Beach Cleanup** mid-action (showing the sorting bins) to illustrate the core loop.
+3.  **Economy Section:** Add a small image of the **"Bayani Points"** or **"Community Health Meter"** UI elements.
+4.  **End of Document:** A "vibe" shot of **multiple avatars socializing** in the hub to emphasize the multiplayer/community aspect.
 
 ---
 
-## 7. Technical Specifications
-*   **Genre:** Multiplayer Indie Hub / Educational Mini-Game.
-*   **Art Style:** Vibrant, summer-themed pixel art.
-*   **Platform:** PC (Web-based or Server-hosted).
-*   **Backend:** Impact Analytics tracking for real-world environmental study.
+## 6. Project Scope
+*   **Current Build:** SDG 11 (Sustainable Cities) Waste Management mini-game.
+*   **Roadmap:** Full integration of SDG 12 and 15, followed by the complete 17-goal suite and accessibility controller patches.
